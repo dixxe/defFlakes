@@ -16,6 +16,7 @@
       nativeBuildInputs = with pkgs; [
         kotlin
         gradle
+        jetbrains.idea-community-bin
       ];
 
       shellHook = ''
